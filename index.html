@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="plugins/external/jquery/jquery.js"></script>
+    <script src="plugins/jquery-ui.min.js"></script>
+    <script src="plugins/js/jquery.classyloader.min.js"></script>
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+   
+</head>
+<body>
+    <section class="rules">
+        <h2>How to Play</h2>
+        <ul>
+            <li>Make as many words as possible!</li>
+            <li>The letters must be adjoining in a 'chain'. (Letter cubes in the chain may be adjacent horizontally, vertically, or diagonally.)</li>
+            <li>Words must contain at least three letters.</li>
+            <li>No letter cube may be used more than once within a single word</li>
+            <li>Type and submit one word at a time.</li>
+        </ul>
+         <input class="start btn" type="submit" name="start" Value="Play">
+        <label for="start"></label>
+    </section>
+    <h1 class="selector">Boggler</h1>
+    <section class="wrapper">
+        <div class="grid">
+        </div>
+        <div class="correctAnswers">
+            <h2>My Answers</h2>
+        </div>
+    </section>
+    <form action="">
+        <input class="userAnswers playing" type="text" name="guess" placeholder="Enter words">
+        
+        <input class="playing btn" type="submit" value="Submit">
+        <label for="guess"></label>
+        <label for="Submit"></label>
+        <canvas class="loader"></canvas>
+    </form>
+    <section class="controls">
+        <input class="endGame btn" type="submit" value="End Game">
+        <label for="EndGame"></label> 
+        <input class="restart btn" type="submit" value="Play Again">
+        <label for="Play Again"></label>
+    </section>
+    
+        <div class= "missedAnswers" id="missedAnswers">
+            <h2>Missed Answers</h2>
+            
+            
+            
+        </div>
+        <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="I scored ${percentage} in @sarahsimpson_io &#39;s Boggler game!"
+            data-show-count="false">Tweet</a> -->
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

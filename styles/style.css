@@ -1,0 +1,385 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(120, 120, 120, 0.62)), to(rgba(120, 120, 120, 0.62))), url(../assets/wood.jpg);
+  background-image: -webkit-linear-gradient(rgba(120, 120, 120, 0.62), rgba(120, 120, 120, 0.62)), url(../assets/wood.jpg);
+  background-image: -o-linear-gradient(rgba(120, 120, 120, 0.62), rgba(120, 120, 120, 0.62)), url(../assets/wood.jpg);
+  background-image: linear-gradient(rgba(120, 120, 120, 0.62), rgba(120, 120, 120, 0.62)), url(../assets/wood.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+h1 {
+  margin: 20px auto;
+  text-align: center;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 9.2rem;
+  color: #f1efe5;
+  text-shadow: 0 8px 9px #d48610, 0px -2px 1px #fff;
+  font-weight: bold;
+  letter-spacing: -4px;
+  text-align: center;
+  border-radius: 20px; }
+
+.rules {
+  color: #fcf4e8;
+  width: 50%;
+  min-height: 50vh;
+  background: #ed8a08;
+  border: 10px #FFBF69 solid;
+  border-radius: 20px;
+  padding: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; }
+  .rules h2 {
+    font-size: 3.3rem; }
+  .rules li {
+    font-size: 2.4rem;
+    text-align: left; }
+  .rules input {
+    margin: 0 auto; }
+
+.wrapper {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 25px; }
+
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  width: 420px;
+  height: 420px;
+  color: black;
+  text-align: center;
+  border: 10px #FFBF69 solid;
+  border-radius: 10px;
+  background: #ed8a08; }
+
+.correctAnswers {
+  width: 40%;
+  background-image: url(../assets/paper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Reenie Beanie', cursive;
+  color: black; }
+  .correctAnswers h2 {
+    font-size: 3.3rem;
+    margin: 10px;
+    border-bottom: 3px solid black;
+    width: 50%; }
+  .correctAnswers p {
+    font-size: 3rem;
+    color: black;
+    padding: 25px;
+    margin: 0; }
+
+.box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2px;
+  width: 96px;
+  height: 96px;
+  border: 2px solid black;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(207, 206, 206, 0.189)), to(rgba(207, 206, 206, 0.2))), #fafbea;
+  background: -webkit-linear-gradient(rgba(207, 206, 206, 0.189), rgba(207, 206, 206, 0.2)), #fafbea;
+  background: -o-linear-gradient(rgba(207, 206, 206, 0.189), rgba(207, 206, 206, 0.2)), #fafbea;
+  background: linear-gradient(rgba(207, 206, 206, 0.189), rgba(207, 206, 206, 0.2)), #fafbea;
+  -webkit-box-shadow: inset 0 0 30px;
+  box-shadow: inset 0 0 30px;
+  border-radius: 10px; }
+  .box p {
+    font-size: 4.5rem;
+    background-color: #2EC4B6;
+    color: transparent;
+    margin: auto;
+    text-shadow: 2px 2px 3px rgba(98, 85, 249, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text; }
+
+.missedAnswers {
+  width: 90%;
+  margin: 25px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px; }
+  .missedAnswers h2 {
+    font-size: 3.3rem;
+    margin: 10px auto;
+    border-bottom: 3px solid black;
+    width: 50%;
+    padding: 5px;
+    text-align: center; }
+
+.answer {
+  font-size: 2.0rem;
+  color: black;
+  width: 100%; }
+  .answer:hover, .answer:focus {
+    font-size: 3.8rem; }
+
+.btn {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  text-shadow: 0px 1px 3px #858585;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 2.6rem;
+  background: #2a90ea;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none; }
+
+.btn:hover {
+  background: #67bef5;
+  background-image: -webkit-linear-gradient(top, #67bef5, #53b2f2);
+  background-image: -moz-linear-gradient(top, #67bef5, #53b2f2);
+  background-image: -ms-linear-gradient(top, #67bef5, #53b2f2);
+  background-image: -o-linear-gradient(top, #67bef5, #53b2f2);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#67bef5), to(#53b2f2));
+  background-image: linear-gradient(to bottom, #67bef5, #53b2f2);
+  text-decoration: none; }
+
+.playing {
+  font-size: 2.6rem;
+  border-radius: 20px;
+  padding: 5px; }
+
+form, .controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  form input, .controls input {
+    width: 200px;
+    height: 50px;
+    margin: 10px; }
+
+.ui-tooltip {
+  background: rgba(254, 254, 254, 0.915);
+  border-radius: 20px; }
+
+.ui-tooltip-content {
+  font-size: 2.5rem;
+  color: black;
+  padding: 5px; }
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  .rules {
+    width: 80%; }
+  .grid {
+    margin-left: 0px; } }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .rules {
+    width: 98%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%); }
+  .wrapper {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0px; }
+  .grid {
+    width: 320px;
+    height: 320px; }
+  .box {
+    margin: 2px;
+    width: 71px;
+    height: 71px; }
+  .correctAnswers {
+    width: 420px;
+    min-height: 50vh;
+    margin: 25px 0; }
+  .missedAnswers h2 {
+    width: 80%; } }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .wrapper {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  h1 {
+    font-size: 8.0rem;
+    width: 96%; }
+  .correctAnswers {
+    width: 98%; }
+  .missedAnswers h2 {
+    font-size: 2.5rem;
+    width: 98%; } }

@@ -1,0 +1,262 @@
+//Sarah Simpson Styles
+
+@import "normalize";
+
+html {
+    font-size: 10px;
+    
+}
+body {
+    background-image: linear-gradient( rgba(120, 120, 120, 0.62),  rgba(120, 120, 120, 0.62)),
+    url(../assets/wood.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 9.2rem;
+    color: #f1efe5;
+    text-shadow: 0 8px 9px #d48610, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: -4px;
+    text-align: center;
+    border-radius: 20px;
+}
+.rules {
+    color:rgb(252, 244, 232);
+    width:50%;
+    min-height: 50vh;
+    background: rgb(237, 138, 8);
+    border: 10px #FFBF69 solid;
+    border-radius: 20px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    
+    h2 {
+        font-size: 3.3rem;
+        
+    }
+    li {
+        font-size: 2.4rem;
+        text-align: left;
+    }
+    input {
+        margin: 0 auto;
+    }
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    width: 420px;
+    height: 420px;
+    color: black;
+    text-align: center;
+    border: 10px #FFBF69 solid;
+    border-radius: 10px; 
+    background: rgb(237, 138, 8);
+}
+.correctAnswers {
+    width: 40%;
+    background-image: url(../assets/paper.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    font-family: 'Reenie Beanie', cursive;
+    color: black;
+    h2{
+        font-size: 3.3rem;
+        margin: 10px;
+        border-bottom: 3px solid black;
+        width: 50%;
+  
+    }
+    p {
+        font-size: 3rem;
+        color: black;
+        padding: 25px;
+        margin: 0;
+
+    }
+}
+.box {
+    display: flex;
+    margin: 2px;
+    width: 96px;
+    height: 96px;
+    border: 2px solid black;
+    background: linear-gradient( rgba(207, 206, 206, 0.189),  rgba(207, 206, 206, 0.2)),rgb(250, 251, 234);
+    box-shadow:inset 0 0 30px;
+    border-radius: 10px;
+    p {
+        
+        font-size: 4.5rem;
+        background-color:  #2EC4B6;
+        color: transparent;
+        margin: auto;
+        text-shadow: 2px 2px 3px rgba(98, 85, 249, 0.5);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        
+        //could center with flex
+    }
+}
+.missedAnswers {
+    width:90%;
+    margin: 25px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    h2 {
+        
+        font-size: 3.3rem;
+        margin: 10px auto;
+        border-bottom: 3px solid black;
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+    
+}
+.answer {
+    font-size: 2.0rem;
+    color:  black;
+    width: 100%;
+    &:hover, &:focus {
+        font-size:3.8rem;
+    }
+    
+}
+
+.btn {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  text-shadow: 0px 1px 3px #858585;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 2.6rem;
+  background: #2a90ea;
+  padding: 10px 20px 10px 20px;
+  //border: solid #d48610 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #67bef5;
+  background-image: -webkit-linear-gradient(top, #67bef5, #53b2f2);
+  background-image: -moz-linear-gradient(top, #67bef5, #53b2f2);
+  background-image: -ms-linear-gradient(top, #67bef5, #53b2f2);
+  background-image: -o-linear-gradient(top, #67bef5, #53b2f2);
+  background-image: linear-gradient(to bottom, #67bef5, #53b2f2);
+  text-decoration: none;
+}
+.playing {
+    font-size: 2.6rem;
+     border-radius: 20px;
+     padding: 5px;
+}
+form, .controls {
+    //margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+    }
+}
+
+// ui-tooltip: The outer container for the tooltip.
+// ui-tooltip-content: The content of the tooltip.
+.ui-tooltip {
+    background: rgba(254, 254, 254, 0.915);
+    border-radius: 20px;
+}
+.ui-tooltip-content {
+    font-size: 2.5rem;
+    color: black;
+    padding: 5px;
+}
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+     .rules {
+        width:80%;
+    }
+    .grid {
+        margin-left: 0px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    .rules {
+        width:98%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: translate(0%, 0%);
+    }
+    .wrapper {
+        //display: block;
+       // margin: 0 auto;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .grid {
+    width: 320px;
+    height: 320px;
+    
+    }
+    .box {
+    margin: 2px;
+    width: 71px;
+    height: 71px;
+    }
+    .correctAnswers {
+        width: 420px;
+        min-height:50vh;
+        margin: 25px 0;
+
+    }
+    .missedAnswers h2,  {
+        width: 80%; 
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .wrapper {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 8.0rem;
+        width: 96%;
+    }
+    .correctAnswers {
+        width: 98%;
+    }
+    .missedAnswers h2,  {
+        font-size: 2.5rem;
+        width: 98%; 
+    }
+}
